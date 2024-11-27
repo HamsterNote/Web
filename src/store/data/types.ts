@@ -2,6 +2,7 @@ import { Page, Text } from '../../components/reader/types';
 
 export interface RelationPage extends Page {
 	id: string;
+	texts: RelationText[];
 }
 
 export interface RelationText extends Text {

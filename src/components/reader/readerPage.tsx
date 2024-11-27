@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './index.css';
-import { Page } from './types';
 import ReaderText from './readerText';
+import { RelationPage } from '../../store/data/types';
 
 interface Props {
-	page: Page;
+	page: RelationPage;
 }
 
 const ReaderPage: React.FC<Props> = (props: Props) => {
